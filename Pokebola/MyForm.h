@@ -774,7 +774,7 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 				}
 			}
 			else {
-				MessageBox::Show("Ganaste");
+				MessageBox::Show("Ganaste"); //444
 				pk_oponente->curar();
 				if(nPks < pkMax){
 					pokemones[nPks++] = pk_oponente;
